@@ -4,7 +4,7 @@ module ApplicationHelper
     if page_title.empty?
       return "Twitter"
     else
-      return "#{page_title}" | "Twitter"
+      return "#{page_title} |  Twitter"
     end
   end
   
